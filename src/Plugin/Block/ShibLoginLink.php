@@ -44,7 +44,7 @@ class ShibLoginLink extends BlockBase {
     $path = str_replace('CURRENT_PATH', $path, \Drupal::config('shib_auth.settings')->get('login_link'));
 
     // build the target url
-    $target = $base_url.$path.'/?'.implode('&',$qs);
+    $target = $path.'/?'.implode('&',$qs);
 
     $build = [];
     $url = $build['shib_login']['#markup'] = '<a href="'.$target.'">Login</a>';
