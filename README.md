@@ -29,6 +29,7 @@ This module requires Apache with mod_shib installed and was designed to work wit
 * Install the module in Drupal 
 * Configuration will appear under System (be sure to give yourself permission)
 * htaccess or Apache config changes (see below)
+* Add login link block to site
 
 
 ### htaccess or Apache config ###
