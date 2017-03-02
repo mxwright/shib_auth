@@ -1,0 +1,7 @@
+shib_auth.shib_auth_settings_form:
+  title: 'Shibboleth Settings'
+  route_name: shib_auth.shib_auth_settings_form
+  description: 'Shibboleth variables and config settings'
+  parent: system.admin_config_system
+  weight: 99
+

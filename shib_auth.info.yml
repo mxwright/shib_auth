@@ -1,0 +1,7 @@
+name: Shib Auth
+type: module
+description: Shibboleth login
+core: 8.x
+package: Web services
+dependencies:
+  - block

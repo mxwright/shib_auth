@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Contains shib_auth.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function shib_auth_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the shib_auth module.
+    case 'help.page.shib_auth':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Shibboleth Authentication') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function shib_auth_theme() {
+  $theme = [];
+
+  return $theme;
+}

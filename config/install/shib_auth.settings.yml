@@ -1,0 +1,5 @@
+email_field: 'eppn'
+username_field: 'eppn'
+force_shib_groups: 0
+autocreate_accounts: 0
+login_link: '/Shibboleth.sso/DS?target=CURRENT_PATH'
