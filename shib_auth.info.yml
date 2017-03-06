@@ -2,7 +2,7 @@ name: 'Shib Auth'
 type: module
 description: 'Simple Shibboleth authentication for Drupal 8'
 version: '8.x-1.1'
-core: 8.x
+core: '8.x'
 package: Web services
 dependencies:
   - block
